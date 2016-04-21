@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+ <test name="FirstWalkThroughPageValidation">
+  <classes>
+  	  <class name="com.magicbricks.regressiontest.FirstWalkThroughPageScenario" />
+  </classes>
+ </test>
+ <test name="RegistrationTest">
+  <classes>
+  	  <class name="com.magicbricks.regressiontest.RegistrationScenario" />
+  </classes>
+ </test>
+ <test name="LoginTest">
+  <classes>
+      <class name="com.magicbricks.regressiontest.LoginScenario" />
+  </classes>
+ </test>
+ <test name="SecondWalkThroughPageValidation">
+  <classes>
+  	  <class name="com.magicbricks.regressiontest.SecondWalkThroughPageScenario" />
+  </classes>
+ </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+#surefire_0
+#Sun Mar 06 15:16:29 IST 2016
+user.dir=E\:\\OAR\\OCCW\\test\\demo
+maven.repo.local=C\:\\Users\\Pramod\\.jenkins\\jobs\\OCSW-3\\workspace\\.repository
+localRepository=C\:\\Users\\Pramod\\.jenkins\\jobs\\OCSW-3\\workspace\\.repository
+basedir=E\:\\OAR\\OCCW\\test\\demo

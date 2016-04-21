@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="FirstWalkThroughPageValidation">
+    <classes>
+      <class name="com.magicbricks.regressiontest.FirstWalkThroughPageScenario"/>
+    </classes>
+  </test> <!-- FirstWalkThroughPageValidation -->
+  <test name="RegistrationTest">
+    <classes>
+      <class name="com.magicbricks.regressiontest.RegistrationScenario"/>
+    </classes>
+  </test> <!-- RegistrationTest -->
+  <test name="LoginTest">
+    <classes>
+      <class name="com.magicbricks.regressiontest.LoginScenario"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="SecondWalkThroughPageValidation">
+    <classes>
+      <class name="com.magicbricks.regressiontest.SecondWalkThroughPageScenario"/>
+    </classes>
+  </test> <!-- SecondWalkThroughPageValidation -->
+  <test name="RegistrationTest(failed)">
+    <classes>
+      <class name="com.magicbricks.regressiontest.FirstWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.FirstWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.LoginScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.LoginScenario -->
+      <class name="com.magicbricks.regressiontest.SecondWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="preSuite"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.SecondWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.RegistrationScenario">
+        <methods>
+          <include name="RegistrationScenarioTestTC_02"/>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.RegistrationScenario -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.magicbricks.regressiontest.FirstWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.FirstWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.LoginScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="loginTestTC_01"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.LoginScenario -->
+      <class name="com.magicbricks.regressiontest.SecondWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="preSuite"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.SecondWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.RegistrationScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.RegistrationScenario -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="SecondWalkThroughPageValidation(failed)">
+    <classes>
+      <class name="com.magicbricks.regressiontest.FirstWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.FirstWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.LoginScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.LoginScenario -->
+      <class name="com.magicbricks.regressiontest.SecondWalkThroughPageScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="preSuite"/>
+          <include name="secondWalkThroughPageTestTC_02"/>
+          <include name="secondWalkThroughPageTestTC_01"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.SecondWalkThroughPageScenario -->
+      <class name="com.magicbricks.regressiontest.RegistrationScenario">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="preClass"/>
+          <include name="postClass"/>
+        </methods>
+      </class> <!-- com.magicbricks.regressiontest.RegistrationScenario -->
+    </classes>
+  </test> <!-- SecondWalkThroughPageValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

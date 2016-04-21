@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]">
+  <test name="Test">
+    <classes>
+      <class name="com.actitime.regressiontest.CreateUserSc_025"/>
+      <class name="com.actitime.regressiontest.LoginTestSC_001"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.actitime.regressiontest.CreateUserSc_025">
+        <methods>
+          <include name="postClass"/>
+          <include name="preClass"/>
+          <include name="preSuite"/>
+          <include name="createUserTestTC02"/>
+          <include name="postSuite"/>
+        </methods>
+      </class> <!-- com.actitime.regressiontest.CreateUserSc_025 -->
+      <class name="com.actitime.regressiontest.LoginTestSC_001">
+        <methods>
+          <include name="postClass"/>
+          <include name="loginTestTC_001"/>
+          <include name="preClass"/>
+        </methods>
+      </class> <!-- com.actitime.regressiontest.LoginTestSC_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
