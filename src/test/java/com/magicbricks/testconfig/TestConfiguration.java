@@ -54,12 +54,6 @@ public class TestConfiguration
 		}
 	}
 	
-	@BeforeTest
-	public void beforeTest() throws IOException{
-		elementConfig = new Properties();
-		FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"//element.properties");
-		elementConfig.load(fs);
-	}
 	
 	@AfterClass
 	public void postClass(){
